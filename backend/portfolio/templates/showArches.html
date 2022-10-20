@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head lang="en">
+    <title>Arch</title>
+</head>
+<body>
+    {% for project in projects %}
+    <div class="col-md-4">
+            <h3>{{ project.title }}</h3>
+             <img src="{{ project.image.url}}" class="img-responsive" style="width: 40%; float: left; " />
+
+    </div>
+    {% endfor %}
+
+</body>

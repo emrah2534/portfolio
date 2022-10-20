@@ -1,0 +1,32 @@
+.element {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border-radius: 150px;
+
+}
+
+/*.card-image{*/
+/*    width: 500px;*/
+/*    height: 500pc;*/
+/*}*/
+
+.card-text {
+    text-align: center; }
+
+/*.card{*/
+/*    --bs-card-border-radius: 20px;*/
+/*    --bs-card-inner-border-radius: 20px;*/
+/*    --bs-card-box-shadow: 10px;*/
+/*}*/
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px
+
+}
+
+

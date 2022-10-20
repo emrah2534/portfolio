@@ -1,0 +1,65 @@
+.progress-barr {
+    background-color: white;
+    height: 30px;
+}
+
+.progress {
+    --bs-progress-bar-bg: #9e9e9e;
+    border-radius: 0;
+    --bs-progress-bar-color: black;
+    font-size: 14px;
+}
+
+
+
+.progress-bar-div{
+    display: block;
+    margin-bottom: 25px;
+
+}
+
+.aboutMe-text{
+    font-family: "Raleway", sans-serif;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+.tech-label {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #f1f1f1;
+
+}
+
+.line{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.labell  {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    color: #f1f1f1;
+    margin-left:30px;
+    margin-bottom: 5px;
+
+
+}
+.svg-icon{
+    display: block;
+    float:left;
+    margin-left: 5px;
+    width:20px ;
+}
+
+.svg-icon:hover{
+    background-color: white;
+}
