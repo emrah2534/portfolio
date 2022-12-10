@@ -17,7 +17,7 @@ from decouple import config
 
 SECRET_KEY=config("SECRET_KEY")
 DEBUG = config("DEBUG", default=True)
-print('Secret Key: '+  str(SECRET_KEY))
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
