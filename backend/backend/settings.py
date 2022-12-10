@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 import environ
 from decouple import config
+import dj_database_url
 
 SECRET_KEY=config("SECRET_KEY")
 DEBUG = config("DEBUG", default=True)
@@ -101,6 +102,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 
 # Password validation
